@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://task-management-frontend-eight-pi.vercel.app/',
+    origin: 'https://task-management-frontend-eight-pi.vercel.app',
     credentials: true,
   })
 );
